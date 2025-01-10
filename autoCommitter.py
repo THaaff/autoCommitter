@@ -10,6 +10,8 @@ from dotenv import load_dotenv
 
 # this is another test?
 
+# test 3
+
 class GitHandler(FileSystemEventHandler):
     def __init__(self, repo_name=None):
         self.repo_name = repo_name
